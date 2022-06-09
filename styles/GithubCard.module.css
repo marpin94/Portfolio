@@ -1,0 +1,11 @@
+
+.projectCard{
+    border: 1px solid black;
+    margin: 8px;
+    transition-duration: 1s;
+}
+
+.projectCard:hover{
+    transform: scale(1.025);
+    box-shadow: 0 2px 5px 0 #dfdfdf, 0 8px 40px 0 rgb(10 14 29 / 6%);
+}
