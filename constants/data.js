@@ -1,6 +1,7 @@
 export const data = {
     projects: [
         {
+            id: 1,
             title: "BookClub",
             link: "https://github.com/marpin94/React-BookClub",
             img: "/assets/images/BookClub.png",
@@ -8,6 +9,7 @@ export const data = {
             tech: `React, Node,js, MongoDB, Express`
         },
         {
+            id: 2,
             title: "Project Tracker",
             link: "https://github.com/marpin94/MERN-Project-Tracker",
             img: "/assets/images/ProjectTracker.png",
@@ -15,6 +17,7 @@ export const data = {
             tech: `React, Node,js, MongoDB, Express`
         },
         {
+            id: 3,
             title: "React Weather",
             link: "https://github.com/marpin94/React-Weather",
             img: "/assets/images/ReactWeather.png",
