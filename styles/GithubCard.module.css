@@ -1,11 +1,5 @@
 
 
-@media (max-width: 600px) {
-    .projectDesc {
-        display: none;
-    }
-  }
-
 
 .projectCard{
     border: 1px solid black;
@@ -13,6 +7,15 @@
     transition-duration: 1s;
     width: 50%;
 }
+
+@media (max-width: 600px) {
+    .projectDesc {
+        display: none;
+    }
+    .projectCard{
+        width: 80%;
+    }
+  }
 
 .projectCard:hover{
     transform: scale(1.025);
