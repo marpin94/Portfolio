@@ -1,8 +1,17 @@
 
+
+@media (max-width: 600px) {
+    .projectDesc {
+        display: none;
+    }
+  }
+
+
 .projectCard{
     border: 1px solid black;
-    margin: 8px;
+    margin: 8px auto;
     transition-duration: 1s;
+    width: 50%;
 }
 
 .projectCard:hover{

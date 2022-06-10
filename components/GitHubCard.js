@@ -10,10 +10,10 @@ export const GitHubCard = () => {
         return(
             <Card className={styles.projectCard} key={item.id}>
                 <Card.Img variant = "top" src = {item.img} />
-                <Card.Body>
+                <Card.Body className={styles.cardBody}>
                     <Card.Title>{item.title}</Card.Title>
-                    <Card.Text>{item.description}</Card.Text>
-                    <Card.Text>Tools used: {item.tech}</Card.Text>
+                    <Card.Text className={styles.projectDesc}>{item.description}</Card.Text>
+                    <Card.Text  className={styles.projectDesc}>Tools used: {item.tech}</Card.Text>
                 </Card.Body>
                 <Card.Footer> <a href={item.link}><i className="bi bi-github"></i></a></Card.Footer> 
             </Card>
@@ -24,7 +24,9 @@ export const GitHubCard = () => {
         <div>
             <h1>Projects</h1>
             <hr />
-            {projects}
+            <div className={styles.cardContainer}>
+                {projects}
+            </div>
         </div>
     )
 }

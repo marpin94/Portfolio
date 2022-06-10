@@ -74,21 +74,30 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+@media (max-width: 1200px) {
+  .card {
+    max-width: 67vw;
   }
 }
 
+@media (max-width: 1000px) {
+  .card {
+    max-width: 72vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    max-width: 85vw;
+  }
+}
 .card {
   text-align: center;
   box-shadow: 0 2px 5px 5px darkgrey, 0 8px 40px 0 rgb(10 14 29 / 6%);
   border: none;
   margin-top: 20vh;
-  width: 100%;
+  max-width: 80vw;
   height: auto;
-  max-width: 50vw;
   padding: 2rem;
   padding-bottom: 0;
   margin-bottom: 5rem;
