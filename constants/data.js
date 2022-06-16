@@ -10,10 +10,10 @@ export const data = {
         },
         {
             id: 2,
-            title: "Project Tracker",
+            title: "React Keep Clone",
             link: "https://github.com/marpin94/MERN-Project-Tracker",
-            img: "/assets/images/ProjectTracker.png",
-            description: 'This app allows users to create projects with individual tasks to track their work and build unique to do lists.',
+            img: "/assets/images/KeepClone.png",
+            description: 'This app is a clone of the popular note app Keep from Google. This full stack MERN app allows users to create notes that are saved to a Mongo Database.',
             tech: `React, Node,js, MongoDB, Express`
         },
         {
